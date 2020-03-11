@@ -1,0 +1,9 @@
+Package: com.johnzaro.disablebreadcrumbs13
+Name: DisableBreadcrumbs13
+Depends: mobilesubstrate, firmware (>= 13)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Disables Breadcrumbs (Arrow Button Pointing To The Previous App In The StatusBar)
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks
