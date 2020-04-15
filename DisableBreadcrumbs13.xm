@@ -1,8 +1,8 @@
 %hook SBDeviceApplicationSceneStatusBarBreadcrumbProvider
 
-+ (id)_breadcrumbBundleIdForActivatingSceneEntity: (id)arg1 withTransitionContext: (id)arg2
++(BOOL)_shouldAddBreadcrumbToActivatingSceneEntity:(id)arg1 sceneHandle:(id)arg2 withTransitionContext:(id)arg3
 {
-	return NULL;
+	return NO;
 }
 
 %end
